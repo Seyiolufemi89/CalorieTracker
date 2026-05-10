@@ -110,18 +110,3 @@ code {
   background: var(--code-bg);
 }
 
-.card {
-  background: var(--bg);
-  border: 1px solid var(--border);
-  border-radius: 8px;
-  box-shadow: var(--shadow);
-  padding: 24px;
-  text-align: left;
-}
-
-.card .img {
-  width: 100%;
-  border-radius: 50%;
-  margin-bottom: 16px;
-}
-
