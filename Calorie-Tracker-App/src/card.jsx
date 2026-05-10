@@ -1,7 +1,7 @@
-import ProfilePicture from './hero.png';
+import ProfilePicture from './assets/hero.png';
 
 
-function card() {
+function Card() {
     return (
         <div className="card">
             <img className="card-img" src={ProfilePicture} alt="Profile picture" />
@@ -12,4 +12,4 @@ function card() {
 
 }
 
-export default card;
+export default Card;

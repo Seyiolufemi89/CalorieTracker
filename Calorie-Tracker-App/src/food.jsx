@@ -1,4 +1,4 @@
-function food() {
+function Food() {
     const food1 = "banana";
     const food2 = "apple";
     const food3 = "orange";
@@ -12,4 +12,4 @@ function food() {
     );
 }
 
-export default food;
+export default Food;
