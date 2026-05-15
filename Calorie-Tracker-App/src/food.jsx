@@ -1,14 +1,21 @@
-function Food() {
-    const food1 = "banana";
-    const food2 = "apple";
-    const food3 = "orange";
+function Food({foodItems, onAddFood, onRemoveFood, onUpdateFood,}) {
+    
 
     return (
-        <ul>
-            <li>{food1.toUpperCase()}</li>
-            <li>{food2.toUpperCase()}</li>
-            <li>{food3.toUpperCase()}</li>
-        </ul>
+        <div className="food-container">
+            <h2>Food</h2>
+
+            <div>
+                
+                <h3>Add your food</h3>
+                <input type="text" id="food-search" placeholder="Search for food..." />
+                <button>Search</button>
+                
+
+            </div>
+
+           
+        </div>  
     );
 }
 
