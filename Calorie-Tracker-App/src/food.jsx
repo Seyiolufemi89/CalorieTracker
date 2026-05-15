@@ -8,9 +8,10 @@ function Food({foodItems, onAddFood, onRemoveFood, onUpdateFood,}) {
             <div>
                 
                 <h3>Add your food</h3>
-                <input type="text" id="food-search" placeholder="Search for food..." />
-                <button>Search</button>
-                
+                <div className="food-search-container">
+                    <input type="text" id="food-search" placeholder="Search for food..." />
+                    <button id="food-search-button">Search</button>
+                </div>
 
             </div>
 
