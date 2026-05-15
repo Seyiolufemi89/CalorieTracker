@@ -9,10 +9,10 @@ function Header() {
       </div>
       <nav>
         <ul>
-          <button><li><a href="#">Diary</a></li></button>
-          <button><li><a href="#">Recipes</a></li></button>
-          <button><li><a href="#">Fasting</a></li></button>
-          <button><li><a href="#">Profile</a></li></button>
+          <li><a href="#">Diary</a></li>
+          <li><a href="#">Recipes</a></li>
+          <li><a href="#">Fasting</a></li>
+          <li><a href="#">Profile</a></li>
         </ul>
       </nav>
       <hr />
